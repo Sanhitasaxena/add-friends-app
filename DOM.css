@@ -1,0 +1,92 @@
+body{
+    background-color: beige;
+    background-image: url("frineds.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    transition: 5s;
+    
+
+}
+
+h1{
+    color:white;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    display: flex;
+    justify-content: center;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+
+}
+.btn-add{
+    background-color: green;
+    border: 2px solid black;
+    color: white;
+    padding: 0px 63px;
+    height: 45px;
+    border-radius: 10px;
+    
+}
+
+.btn-remove{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    padding: 0px 63px;
+    height: 45px;
+    border-radius: 10px;
+}
+.form-control{
+    padding: 0px 72px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid black;
+   
+}
+
+ul{
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    
+
+
+    
+    
+
+
+}
+
+li{
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid brown;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 2rem;
+    width: 40rem;
+   
+
+}
+
+.contain{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+
